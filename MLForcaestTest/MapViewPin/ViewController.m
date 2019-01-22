@@ -73,8 +73,8 @@
     [self addAnnotation:coordinate];
 }
 -(void)initView{
-    UILabel * forecastLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 30, 100, 60)];
-    forecastLabel.centerX = self.view.centerX;
+    UILabel * forecastLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, SCREEN_HEIGHT - 90, 100, 60)];
+
     forecastLabel.numberOfLines = 0 ;
     forecastLabel.textAlignment = NSTextAlignmentCenter;
     forecastLabel.font = SetPingFangSCMedium(15.0f);
