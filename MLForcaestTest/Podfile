@@ -1,0 +1,9 @@
+platform :ios,'9.0'
+
+target 'MLForecastText' do
+pod 'AFNetworking' ,'3.2.1'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'SVProgressHUD', '2.2.5'
+end
+ 
